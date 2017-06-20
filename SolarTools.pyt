@@ -18,7 +18,7 @@ class Extract_Lidar_Building_Footprints(object):
 
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
-        self.label = "Extract Building Footprints from Lidar Point Cloud"
+        self.label = "Building Footprints from Lidar"
         self.description = "This tool uses classified airborne lidar las files to estimate building footprints. It " \
                            "has options to also extract trees, output a shapefile (if file size < 2Gb) and compare " \
                            "lidar-based output building footprints to an independant dataset covering the same area "
@@ -224,7 +224,7 @@ class Extract_Lidar_Building_Footprints(object):
 class Build_raster_from_las(object):
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
-        self.label = "Build Raster from Lidar Point Cloud"
+        self.label = "Build Raster from Lidar"
         self.description = " "
         self.canRunInBackground = False
 
