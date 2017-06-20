@@ -7,11 +7,11 @@ class Toolbox(object):
     def __init__(self):
         """Define the toolbox (the name of the toolbox is the name of the
         .pyt file)."""
-        self.label = "Lidar-based solar rooftop potential analysis"
+        self.label = "SolarTools"
         self.alias = ""
 
         # List of tool classes associated with this toolbox
-        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Classify_roofs, Estimate_rooftop_solar_potential]
+        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Estimate_rooftop_solar_potential]
 
 
 class Extract_Lidar_Building_Footprints(object):
@@ -305,18 +305,7 @@ class Build_raster_from_las(object):
 
 
 
-class Classify_roofs(object):
-
-    def __init__(self):
-        """Define the tool (tool name is the name of the class)."""
-        self.label = "Classify Roof Shapes from Lidar Point Cloud"
-        self.description = " "
-        self.canRunInBackground = False
-
-
-
-
-class Estimate_rooftop_solar_potential(object):
+class Estimate_solar_potential(object):
 
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
