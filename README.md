@@ -7,4 +7,4 @@ Requires the liscence for ArcGIS Spatial Analyst toolbox.
 Tools:
 - Build Raster from Lidar Point Cloud
 - Extract Building Footprints from Lidar Point Cloud
-- Estimate Rooftop Solar Potential
+- Estimate Solar Potential
