@@ -349,7 +349,7 @@ class Calibrate_solar_potential(object):
         rad_month_hor = arcpy.Parameter(
             displayName="Monthly incident solar radiation on flat surface (MJ m-2) (jan;feb;mar;apr;mai;jun;jul;aug;sep;oct;nov;dec)",
             name="rad_month_hor",
-            datatype="String",
+            datatype="GPString",
             parameterType="Optional",
             direction="Input")
         rad_month_hor.value = '5.958;9.8;14.281;16.515;20.12;21.705;21.711;18.512;13.593;8.835;5.231;4.605'
@@ -357,7 +357,7 @@ class Calibrate_solar_potential(object):
         rad_month_incl = arcpy.Parameter(
             displayName="Monthly incident solar radiation an inclined (30deg) surface (MJ m-2) (jan;feb;mar;apr;mai;jun;jul;aug;sep;oct;nov;dec)",
             name="rad_month_incl",
-            datatype="String",
+            datatype="GPString",
             parameterType="Optional",
             direction="Input")
         rad_month_incl.value = '10.295;14.861;18.395;18.199;20.13;20.751;21.182;19.64;16.258;12.358;8.281;8.191'
