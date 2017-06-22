@@ -11,7 +11,7 @@ class Toolbox(object):
         self.alias = ""
 
         # List of tool classes associated with this toolbox
-        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Estimate_rooftop_solar_potential]
+        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Estimate_solar_potential]
 
 
 class Extract_Lidar_Building_Footprints(object):
