@@ -11,7 +11,7 @@ class Toolbox(object):
         self.alias = ""
 
         # List of tool classes associated with this toolbox
-        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Estimate_solar_potential]
+        self.tools = [Extract_Lidar_Building_Footprints, Build_raster_from_las, Calibrate_solar_potential]
 
 
 class Extract_Lidar_Building_Footprints(object):
@@ -305,11 +305,11 @@ class Build_raster_from_las(object):
 
 
 
-class Estimate_solar_potential(object):
+class Calibrate_solar_potential(object):
 
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
-        self.label = "Estimate Rooftop Solar Potential"
+        self.label = "Calibrate Solar Potential"
         self.description = " "
         self.canRunInBackground = False
 
