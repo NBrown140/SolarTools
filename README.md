@@ -2,7 +2,7 @@
 An ArcGIS toolbox for lidar-based solar rooftop modelling
 
 Written in Python.
-Requires the liscence for ArcGIS Spatial Analyst toolbox.
+Requires the lisence for ArcGIS Spatial Analyst toolbox.
 
 Tools:
 - Build Raster from Lidar Point Cloud
